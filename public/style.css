@@ -1,0 +1,37 @@
+body{
+    background-color:rgb(15, 25, 26);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+h1,h2{
+    text-align: center;
+}
+
+.expenses-list{
+    margin: 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid #ddd;
+    padding:8px;
+    text-align: left;
+}
+th{
+    background-color: #17614f;
+    color: aqua;
+
+}
+tfoot td{
+    font-weight: bold;
+}
+.delete-btn{
+    padding:5px,10px;
+    background-color: #da9797;
+    color:black;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer;
+}
